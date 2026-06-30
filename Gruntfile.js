@@ -124,7 +124,7 @@ module.exports = function(grunt) {
 							
 						} catch (ex) {
 							
-							grunt.log.writeln('[ERROR] Generating doc for ' + filepath + ' failled with message: ' + ex.message);
+							grunt.log.writeln('[ERROR] Generating doc for ' + filepath + ' failed with message: ' + ex.message);
 							return '';
 							
 						}
